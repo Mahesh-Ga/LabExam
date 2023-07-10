@@ -1,10 +1,10 @@
 const mysql = require('mysql')
 
 const pool = mysql.createPool({
-  host: 'http://172.17.0.3:7005',
+  host: 'localhost',
   user: 'root',
-  password: 'root',
-  database: 'Exam',
+  password: 'manager',
+  database: 'classwork',
   waitForConnections: true,
   connectionLimit: 10,
   maxIdle: 10,
