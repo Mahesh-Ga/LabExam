@@ -6,7 +6,7 @@ app.use(cors('*'))
 app.use(express.json())
 
 app.get('/', (request, response) => {
-  response.send('Home page')
+  response.send('My Home page')
 })
 
 const empRouter = require('./Routes/emp')
